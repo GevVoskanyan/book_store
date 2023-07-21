@@ -1,0 +1,14 @@
+.add_book {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 5px solid #000;
+  &_title_container {
+    border-bottom: 3px solid #ede8db;
+    padding: 20px 0;
+    text-align: center;
+  }
+  &_title {
+    text-align: center;
+  }
+}

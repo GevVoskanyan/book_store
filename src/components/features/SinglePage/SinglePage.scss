@@ -1,0 +1,48 @@
+.single__page {
+  padding: 30px;
+  &_container {
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+  }
+  &_image_container {
+    width: 100%;
+    max-width: 310px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-right: 30px;
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &_book_price {
+    background-color: #f1d9cd;
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  &_title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  &_disc {
+    color: #957b69;
+  }
+  &_pr {
+    margin-right: 10px;
+  }
+  &_line-tr {
+    text-decoration: line-through;
+    text-decoration-color: #957b69;
+  }
+  &_desc_title {
+    margin-bottom: 30px;
+  }
+  &_desc {
+    font-size: 14px;
+    max-width: 100ch;
+  }
+}

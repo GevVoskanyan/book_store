@@ -1,0 +1,43 @@
+.home_first_blog {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  &_search_bar {
+    width: fit-content;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    top: 0;
+    left: 0;
+    &_inp {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      outline: none;
+      border: 2px solid #c1baa0;
+      color: #c1baa0;
+    }
+    &_inp::placeholder {
+      color: #c1baa0;
+      font-weight: 400;
+      font-family: "DejaVu_Sans";
+    }
+    &_icon {
+      color: #c1baa0;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      align-items: center;
+    }
+  }
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  border: none;
+  background-color: #f5ede7;
+}

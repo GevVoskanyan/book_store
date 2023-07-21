@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DejaVu_Sans";
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #fff;
+  color: #000000;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  color: #e8920b;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.star {
+  width: 27px;
+  height: 24px;
+}
+.star__active {
+  color: #f1b211;
+}
+.txt {
+  resize: none;
+  height: 200px;
+}
+.underline {
+  text-decoration: underline;
+}
+.line-tr {
+  text-decoration-line: line-through;
+}
+.disc {
+  color: red;
+}
+.price-disc {
+  display: flex;
+  flex-direction: column;
+}
+.bt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 47%;
+  padding: 10px 5px;
+}
+.rem__btn {
+  background-color: #e55656;
+}
+.rep__btn {
+  border: 1px solid #f1b211;
+  text-align: center;
+}
+.errors {
+  display: flex;
+  padding: 5px;
+  color: darkred;
+}
